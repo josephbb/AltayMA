@@ -1,7 +1,7 @@
 [project]
 name = "altay-analysis"
 version = "0.1.0"
-description = "Bayesian analysis of news exposure effects"
+description = "Altay MA analysis"
 requires-python = ">=3.12"
 dependencies = [
     "numpy",
