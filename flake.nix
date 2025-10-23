@@ -1,5 +1,5 @@
 {
-  description = "Altay analysis environment";
+  description = "Altay MA analysis env";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
