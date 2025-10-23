@@ -22,7 +22,7 @@
           ];
           
          shellHook = ''
-            echo "Altay analysis environment loaded"
+            echo "Altay MA analysis environment loaded"
             echo "Installing dependencies..."
             just install
             echo "Exporting analysis..."
