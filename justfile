@@ -10,9 +10,6 @@ notebook:
 export:
     uv run jupyter nbconvert --to html Analysis.ipynb
 
-export-pdf:
-    uv run jupyter nbconvert --to pdf Analysis.ipynb
-
 
 # Clean output files
 clean:
