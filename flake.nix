@@ -25,9 +25,12 @@
             echo "Altay MA analysis environment loaded"
             echo "Installing dependencies..."
             just install
-            echo "Exporting analysis..."
-            just export
-            echo "Ready! Analysis.html has been generated."
+            echo "Running analysis from top to bottom..."
+            if just export; then
+              echo "Ready! Analysis.html has been generated."
+            else
+              echo "Analysis failed."
+            fi
           '';
         };
       }

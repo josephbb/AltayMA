@@ -6,9 +6,10 @@ install:
 notebook:
     uv run jupyter notebook
 
-# Export notebook to HTML
+# Run the notebook from top to bottom, then export HTML
 export:
-    uv run jupyter nbconvert --to html Analysis.ipynb
+    mkdir -p out
+    uv run jupyter nbconvert --execute --to html Analysis.ipynb
 
 
 # Clean output files
