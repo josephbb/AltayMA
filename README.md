@@ -92,6 +92,6 @@ just notebook
 
 ## License
 
-Copyright 2025-2026 josephbb.
+Copyright 2025-2026 Joe Bak-Coleman.
 
 This work is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). The license text is in `LICENSE`.
